@@ -1,0 +1,1386 @@
+﻿{
+    "baseUrl":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2",
+    "files":  [
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha.exe",
+                      "size":  667648,
+                      "sha256":  "aad00e4a1d310d9d448397ecd5e1d60f9352d3b7f0e6905c91d613742919d390",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha.exe"
+                  },
+                  {
+                      "path":  "UnityCrashHandler64.exe",
+                      "size":  1555880,
+                      "sha256":  "22caf059719910cab37e078ef899a3ba524bbc53eed22f970ae127f094a6ca07",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/UnityCrashHandler64.exe"
+                  },
+                  {
+                      "path":  "UnityPlayer.dll",
+                      "size":  33521576,
+                      "sha256":  "6558ca41fbfe93364766fd4537cb8a77658fd0ffc68a400f0e84cedce2d01e65",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/UnityPlayer.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+                      "size":  216501,
+                      "sha256":  "f6a11c1ee2c3d8a8b0e4daedd4839aac4c311ef650d62cb7c9462fa8d7275620",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/app.info",
+                      "size":  36,
+                      "sha256":  "c6d335b2078ec6978c1d78f2610330dc264f0fcbdcc34acd0053162a5b1244b2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/app.info"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/boot.config",
+                      "size":  114,
+                      "sha256":  "dc4e31f1c40ef141651939fc69d4ea23c8676a3ceb680de07882f921605a7601",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/boot.config"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/globalgamemanagers",
+                      "size":  1880708,
+                      "sha256":  "9f28eb140ddaced88fef4bdb5f8ebef88b8867a44a46d7a76d1953215809205c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/globalgamemanagers"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/globalgamemanagers.assets",
+                      "size":  591700,
+                      "sha256":  "f0241b59bce70b7ba8e96138a2eb728d4fe44fe765c22b3df2d9275355506d7e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/globalgamemanagers.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/globalgamemanagers.assets.resS",
+                      "size":  2796240,
+                      "sha256":  "39dd38fcd8dd95d41d6d55fe16a448d29fe2c31d9a162c825c24c6d99a893d7a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/globalgamemanagers.assets.resS"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/level0",
+                      "size":  50832,
+                      "sha256":  "b4d1555cd4d5fea602fcc1403b7ba4f570d55cc80498c766ae4d686ed202d602",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/level0"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/level1",
+                      "size":  4008,
+                      "sha256":  "c0cccfc66287207441ac91ada67b1aa8e5ec86a2255f73f70442f0a7da357988",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/level1"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/level2",
+                      "size":  97796,
+                      "sha256":  "fc65aec710170e27d701eab8678ca77f27f6ba89f8f3c1aecfa58cf788eb2f78",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/level2"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/level3",
+                      "size":  3792,
+                      "sha256":  "836637aef699c6de924cee641cd93f8038f8118fd741f013d446de055e4df234",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/level3"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/resources.assets",
+                      "size":  9592304,
+                      "sha256":  "0f246769037af94afa00f645bb3155fae27e125c109c66961f4f27395ff70560",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/resources.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/resources.assets.resS",
+                      "size":  240768352,
+                      "sha256":  "40b1d9168bcb5915664f7cbdeecde48301c937122e33039047454942bb9fab84",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/resources.assets.resS"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/resources.resource",
+                      "size":  5104160,
+                      "sha256":  "4096421d2764e0cea8e6a8404a1f89bf00fdab1f46dae22e155cabd9eecbbce4",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/resources.resource"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/RuntimeInitializeOnLoads.json",
+                      "size":  7873,
+                      "sha256":  "3715cdf2482915d27549b0149085eb4a1002d2ef02183fe4f7a68a60bdb2e7c6",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/RuntimeInitializeOnLoads.json"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/ScriptingAssemblies.json",
+                      "size":  5787,
+                      "sha256":  "716b44390eaccbcb2dd1728373a4b95f121df88b18950f492cc7f2de11b5e17d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/ScriptingAssemblies.json"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets0.assets",
+                      "size":  654296,
+                      "sha256":  "115d0cc2e60d17f6e7af9011b9bc91bad5653f87f98add8e1f091214f1c7cf43",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets0.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets0.assets.resS",
+                      "size":  4718592,
+                      "sha256":  "ce60730a16c3d8450980796a482a84485fa2cb528653e729c7bdca0bb7919eb7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets0.assets.resS"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets1.assets",
+                      "size":  21040,
+                      "sha256":  "1fc38e6773485deefbfd8576cd6219ad7331c378e3b1426e57d20ace35394034",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets1.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets2.assets",
+                      "size":  237812,
+                      "sha256":  "dc5f3289392878fd361cc6b689bd590e96f4f5e81a25f7b4af55049d57509c7a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets2.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets2.assets.resS",
+                      "size":  4210176,
+                      "sha256":  "74dd72b80b528131e162143e186fd4adfb68fe22b283a1b67308103cafd4c128",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets2.assets.resS"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/sharedassets3.assets",
+                      "size":  417,
+                      "sha256":  "3b3efd83e6e60ee63468cb35b32f4cc9ba4d1b8cd69e1b370c181e59b054dbf9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/sharedassets3.assets"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Assembly-CSharp.dll",
+                      "size":  957440,
+                      "sha256":  "dcb9fefa38769bf72124aaae4795fa75092dff46213a49b79bd62866dee54114",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Assembly-CSharp.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Mono.Security.dll",
+                      "size":  241152,
+                      "sha256":  "51d4a2000119027259416d0511a1d1bec6f1b0952d64e910fe35d5bda35cb76a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Mono.Security.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/mscorlib.dll",
+                      "size":  4632064,
+                      "sha256":  "e559411d73c465ba86d1b6e8043673344ec08fe795a6f3fdb4f57a3d54e6c1e0",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/mscorlib.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/netstandard.dll",
+                      "size":  90112,
+                      "sha256":  "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/netstandard.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Newtonsoft.Json.dll",
+                      "size":  691712,
+                      "sha256":  "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Newtonsoft.Json.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Purchasing.Common.dll",
+                      "size":  13824,
+                      "sha256":  "df8dcc76a3fbd2aa191964a2e2477c47cdb7e82c5beec1dd59347d2f3f80bed7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Purchasing.Common.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/SuperTiled2Unity.dll",
+                      "size":  31744,
+                      "sha256":  "5da2c88d2d56eb7849badcddb67cf6a6d10beeaee8358b7685a62430b56f912b",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/SuperTiled2Unity.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.ComponentModel.Composition.dll",
+                      "size":  257024,
+                      "sha256":  "ddf87a5e168e207ca145390bff37c95663771d0d651f4437d6c37e8dcae8bb9f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.ComponentModel.Composition.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Configuration.dll",
+                      "size":  124928,
+                      "sha256":  "9c84544808e89cd70e2e46db9245488886ba876104bb42b136424b7166f1bcca",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Configuration.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Core.dll",
+                      "size":  1113088,
+                      "sha256":  "e7c738916481a722354fc89ba47e04a00e3ac1b08ce97a313958ec605759ff96",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Core.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Data.DataSetExtensions.dll",
+                      "size":  29696,
+                      "sha256":  "0398f05b55dbc31b03a38da6c78f5fa10f757a568635558d19e7cb58e2fd4f73",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Data.DataSetExtensions.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Data.dll",
+                      "size":  2125312,
+                      "sha256":  "77839d3aaea028c849b0e720ac683ff1cb6f317b7d16c6855b4a8c3ab1088c34",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Data.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.dll",
+                      "size":  2641920,
+                      "sha256":  "211600ca78a21431c791610d9469e20deab3dd0aef557626503d438d2299ac0e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Drawing.dll",
+                      "size":  489984,
+                      "sha256":  "3849aeaa0308ac728787496f17af3fd727a0fa99932d4d8925728ee45b812753",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Drawing.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.EnterpriseServices.dll",
+                      "size":  44544,
+                      "sha256":  "c027ec57657cefe59c72b1a7e7fa866bf3c0c69ba46e678fab906bb96f0d5603",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.EnterpriseServices.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Compression.dll",
+                      "size":  114688,
+                      "sha256":  "f048f260924013389171ab494a72a4ddcbf247ee1b8f7b2215c3a7d4b173aa67",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Compression.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Compression.FileSystem.dll",
+                      "size":  18432,
+                      "sha256":  "7477edbfb128341046bea5c9e334bea6d53c6bfe0a12ef2ab9b18319b4e688d1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Compression.FileSystem.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Hashing.dll",
+                      "size":  50488,
+                      "sha256":  "ac7ac3e83805b0b621c48b90543dc733c9a89106835278618357d6187e3da74e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.IO.Hashing.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Memory.dll",
+                      "size":  4608,
+                      "sha256":  "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Memory.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Net.Http.dll",
+                      "size":  122880,
+                      "sha256":  "cc34469b533c0499f7d85d70fe87113d0d069f4454c6cf33c35765880c7b9547",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Net.Http.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Numerics.dll",
+                      "size":  119296,
+                      "sha256":  "5c3ab2b30b3ddfa809b978724d183fea9c6d53b1cf103a1b5779d59579bcf9ee",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Numerics.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+                      "size":  18024,
+                      "sha256":  "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.dll",
+                      "size":  12288,
+                      "sha256":  "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.Serialization.dll",
+                      "size":  934400,
+                      "sha256":  "6195bd785c0786ca5f6f70d9510f082659025e36aa949193ba2883fd88aacde1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Runtime.Serialization.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Security.dll",
+                      "size":  320000,
+                      "sha256":  "f6e3b00db440197d5104ad9d780b10a261ed7aa2d7948af60eeddb2a5ebc5ce8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Security.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.ServiceModel.Internals.dll",
+                      "size":  215040,
+                      "sha256":  "b3171c65cb371b69a42c72805947ed0106dc715c9befae82ef62334fe9b6910b",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.ServiceModel.Internals.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Transactions.dll",
+                      "size":  35328,
+                      "sha256":  "016e71de104a49675f53c97028f4e435d67c983851f1b03c2e11cd725442cdf3",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Transactions.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Xml.dll",
+                      "size":  3160064,
+                      "sha256":  "f6b30a96b179bbe9896a68f1fa0cd1acfd0656d12a1f21f6792d1a7cd25753f6",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Xml.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/System.Xml.Linq.dll",
+                      "size":  136704,
+                      "sha256":  "8ba0be484ecbcd9cf798c6fb3526459ececcfb28fbbf38dd0890471dbe3d3f72",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/System.Xml.Linq.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UniRx.dll",
+                      "size":  465408,
+                      "sha256":  "fb4bd549741262fa4bf016d4b6d10403895782ae5ec88d26dc9ffffc428fe075",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UniRx.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Animation.Runtime.dll",
+                      "size":  88576,
+                      "sha256":  "ecfba9bf84192da14bb11f674212a2e9962f871d055ce6297027ecccbe88a252",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Animation.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Common.Runtime.dll",
+                      "size":  47616,
+                      "sha256":  "72070465ec0535111de639da42fcfd479c0fdfa8f82d07638ff47bad9183127d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Common.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.IK.Runtime.dll",
+                      "size":  27136,
+                      "sha256":  "29909a9a6a86604adfb7e14c5aac54f353d7b3d34474dcb35e66163a8815f422",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.IK.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
+                      "size":  112640,
+                      "sha256":  "34386f37ab6a05e42e14189e4690360d86bea235f45e52476ee9599c90e8468f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.SpriteShape.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Tilemap.Extras.dll",
+                      "size":  39424,
+                      "sha256":  "edadc7f538a1c779dac51c2b66e773c3ad015ba4c3d2ae1b05e4111ddc227b38",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.2D.Tilemap.Extras.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Addressables.dll",
+                      "size":  116736,
+                      "sha256":  "45c0e2d6aec540320692529ac7c711e67a61a50a9f55df622e02e79b1cb20d68",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Addressables.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.AI.Navigation.dll",
+                      "size":  24064,
+                      "sha256":  "1b6887caed1a8cc42ccb569eb2b0ffee417279101c418b88de2308dacaa1f3e4",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.AI.Navigation.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.DataPrivacy.dll",
+                      "size":  8704,
+                      "sha256":  "e6a1fdf6ad7a8f9e4236f02e3616ff8f5754ee4e832006846824ce1c8173bd4c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.DataPrivacy.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.StandardEvents.dll",
+                      "size":  32256,
+                      "sha256":  "a3ddbf7c0e530e85fb371f16eaf519fb70cba8a0a733513f73e063f43569f89a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.StandardEvents.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.Tracker.dll",
+                      "size":  19456,
+                      "sha256":  "85b955249e49c19ee309cf00cdbe76de9ec3adacfe70b1fbcb778d13ec3d32dc",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Analytics.Tracker.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Burst.dll",
+                      "size":  304640,
+                      "sha256":  "33567e953137ace4410eb26fcccbfef9c8821b0a7f8e97c9ac6fe939ec66f7e8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Burst.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Burst.Unsafe.dll",
+                      "size":  5632,
+                      "sha256":  "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Burst.Unsafe.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Cinemachine.dll",
+                      "size":  467968,
+                      "sha256":  "24d6fa75e6c7d9c6393128fddb9b13bbc0f1daa26d8b8a5b0b6f4071ddcc3f2d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Cinemachine.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Collections.dll",
+                      "size":  452096,
+                      "sha256":  "8296fcb2becf66b06332010326868fa518ced49d21994a5594793a5ed21811d2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Collections.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+                      "size":  5120,
+                      "sha256":  "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.InputSystem.dll",
+                      "size":  1135104,
+                      "sha256":  "195646f1142275f432ec80d1ad5b996122ee2a5adb9f24364e3d210846d5b701",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.InputSystem.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.InputSystem.ForUI.dll",
+                      "size":  16896,
+                      "sha256":  "c803aa8ab82054b1b440074fde9a11de58a850ca4f5cb4859df944301a99db86",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.InputSystem.ForUI.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
+                      "size":  6656,
+                      "sha256":  "1b346e21979685553c9632be27cb64118f3a692cfd8c1800cd9ea2f644b6c82a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.InternalAPIEngineBridge.001.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Mathematics.dll",
+                      "size":  752640,
+                      "sha256":  "a1c844b2ad935501b7fbdc3c415706ffa163d09c079a26128e48122dab97112b",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Mathematics.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.MemoryProfiler.dll",
+                      "size":  6144,
+                      "sha256":  "eedc007547359ca92934542d5c9c33578518f7e4dd0cbc09270e58141719a9c2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.MemoryProfiler.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+                      "size":  10752,
+                      "sha256":  "a5595d436ea2e701b48a728b3b5eac34a37d5a437c285f7aaebfbe6b83a9a93f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Multiplayer.Center.Common.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Profiling.Core.dll",
+                      "size":  10240,
+                      "sha256":  "f818d0b327d5e7ba285e8d36fad08c19c75a6ec723f6064ba93802abd0dfa541",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Profiling.Core.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Recorder.Base.dll",
+                      "size":  5632,
+                      "sha256":  "b6c8f95c2351f85989ba92d485b4eaf4afbc1a01826c48b36119aa1fe20d2348",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Recorder.Base.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Recorder.dll",
+                      "size":  6656,
+                      "sha256":  "1b323e61f1ea5d70318ce02ba0e4b32141bd2b4a5dde7e24c4f75a72249b0fd7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Recorder.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll",
+                      "size":  305664,
+                      "sha256":  "f00c528771564195c80a0db521dee81803b2d1a8db7d6f6be45719a8dc5d4679",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+                      "size":  9216,
+                      "sha256":  "bcbaba47a2d032f763d3de3768fccc850aa2777757566174662fff19667c07d7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+                      "size":  912384,
+                      "sha256":  "8e32af2d50bf23984cb1810fc6e1c37df6a8fd7d0bb9afb63a3b969b706db7cd",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+                      "size":  5632,
+                      "sha256":  "3eafa0a94ba107c0c0a83b7407df5f97a80b4b50cfd684b474eba5d614029dac",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+                      "size":  4608,
+                      "sha256":  "e9a8fd0780e6cca92217b4f40cb1b724beb6a645c70fc1ecb4512615ec9cbd20",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+                      "size":  225792,
+                      "sha256":  "8babccdb811435eac0a454f19db4b1e9a68474ec33c47b8dac87b7fd7f2f9a81",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+                      "size":  4608,
+                      "sha256":  "0eae6fed828a89f3c1f10c3b58e9081bc744b9fd0ba4f8541b6d0f730d20cdd7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+                      "size":  252416,
+                      "sha256":  "c56aa0ddbb7f69bbe3e5eed91737f2659a28721763e58bf01dfa3330eec22e8c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+                      "size":  5632,
+                      "sha256":  "f740faebe921bbec0c0dcc5024a2a0165af1443e6c8b7d113d669914faef994a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+                      "size":  804352,
+                      "sha256":  "2dbb16679091b69f124354ed436daf9c35982cb000049f9ad92ca72045d0d094",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+                      "size":  4608,
+                      "sha256":  "99d29271dd56cb457156b85320ffa6f978537a0e6b68d7ad76f5bf3697949869",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.ResourceManager.dll",
+                      "size":  143360,
+                      "sha256":  "3d85da40a54f1fbef503150903a1192210c79d1fb8446442822836d99a520228",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.ResourceManager.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+                      "size":  8704,
+                      "sha256":  "74d6313d4a87320ea807d5dcac355027bf9510069b1e97ce926de4eca30b5028",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.ScriptableBuildPipeline.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Analytics.dll",
+                      "size":  73728,
+                      "sha256":  "9330fe2e5475bbfca40cbdb51b5693646b48f3f3617a2161ea08ccc6fe86b775",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Analytics.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Analytics.dll",
+                      "size":  5632,
+                      "sha256":  "1bf0c388b1574af809937dafe295ec450ee3a53551b9afc410b6b9195cb6c56d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Analytics.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Components.dll",
+                      "size":  10752,
+                      "sha256":  "fc5a6b99c3a7ca89c819ca86423cb7afa140c1505a7cd7009bbdfdf918ed4975",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Components.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Configuration.dll",
+                      "size":  14336,
+                      "sha256":  "591008fa45712d4a2fce36b9d71dd24c46a16785f9dc0417a35431dd035ab7ce",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Configuration.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Device.dll",
+                      "size":  6656,
+                      "sha256":  "6afe4c3a3cfb44e986f7f79def5ae925ae481f6260823f7d4772cfa3a849ebcf",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Device.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.dll",
+                      "size":  16384,
+                      "sha256":  "af7939ec63e7f893970d359f5470722714b7fdffe2682cbd1a4548d7a7e9582a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Environments.dll",
+                      "size":  5632,
+                      "sha256":  "844cdcf6f38f0c599d9334e76c9b7573fd80d64053972c783f14c50f7feaa7c4",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Environments.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+                      "size":  5120,
+                      "sha256":  "5925a8fac8ad26aae1fa7411d1a09fb9e43a45c0d961cc6e0dcaafb31d3fbad9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Internal.dll",
+                      "size":  74752,
+                      "sha256":  "9ec03fc131cb5a979ce407f1583bfa066e2b044e7d3a69baa4072cfb3abe03a1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Internal.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Networking.dll",
+                      "size":  8192,
+                      "sha256":  "de7a7235edaff5f8f16e41c300eb4d3685dae2d7a40dc31c10e6874cdc7ca0c9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Networking.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Registration.dll",
+                      "size":  18432,
+                      "sha256":  "ad068c90c9f6bb7f5a99f1e22ae182c78681e798bc8c2b676308f260c63fb1da",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Registration.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Scheduler.dll",
+                      "size":  12800,
+                      "sha256":  "288176844eb73009d4a33874fab1d46b3f0b5fcaafea4b40d98c59faa0eb72b1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Scheduler.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Telemetry.dll",
+                      "size":  8704,
+                      "sha256":  "423bb5935613b37e6b95b5e1a08583376df3dbd2a9cc87973f94a1bf77ef3660",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Telemetry.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Threading.dll",
+                      "size":  7168,
+                      "sha256":  "05b9d12c3c93aa63e2d3335eef2f6affb76ceed9f5a3a8d70740a003e4392e03",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Core.Threading.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Vivox.dll",
+                      "size":  1583104,
+                      "sha256":  "4d9336f9f5229fa460695c794fb7f65bdc3572d1f39f8d844f9fe1c736551cdf",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Services.Vivox.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Splines.dll",
+                      "size":  150528,
+                      "sha256":  "a61c1a99f4f1710b107f8f5fa1b53a8c39a99ce8d098b15810cc4967239e6374",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Splines.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.TextMeshPro.dll",
+                      "size":  446464,
+                      "sha256":  "9eee109bb29ffdc85533f5a5196b25cebe1c502a67c0ae106d16edc68b9c226a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.TextMeshPro.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.Timeline.dll",
+                      "size":  128512,
+                      "sha256":  "d04bb35c89b93cf31892153da7d02f85b6a18c28f18280c2d5e0f7b2ed08719e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.Timeline.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+                      "size":  86016,
+                      "sha256":  "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Core.dll",
+                      "size":  629760,
+                      "sha256":  "ca5b993ebd2d2c35036a57168067086a5223e6a29f4d7079ea8c87c944933c1d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Core.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Flow.dll",
+                      "size":  407552,
+                      "sha256":  "64c673314f377e10719eff78a9709080879061b70726553d497594156f30e397",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.Flow.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.State.dll",
+                      "size":  32256,
+                      "sha256":  "51e205b28abd5d907d20fdf67304096314a71ba5e9ec9958a6b317088917964a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/Unity.VisualScripting.State.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AccessibilityModule.dll",
+                      "size":  53160,
+                      "sha256":  "d2e88fd2911dfb6c43ce886d16a1e8f7189a48decb23729ec98306a400845c23",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AccessibilityModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Advertisements.dll",
+                      "size":  38912,
+                      "sha256":  "0393536e15221a527b9a65744785b534a6feb20da7fd4329fce1460d6af37f4e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Advertisements.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AIModule.dll",
+                      "size":  74152,
+                      "sha256":  "9e3185e77850a3144667b5641ee3e60dd7450ac03c79ceffce247aa38520053c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AMDModule.dll",
+                      "size":  21936,
+                      "sha256":  "2f2a109b372d7a0ea2705f492b00b0ca97bcb1c42cf3700d73ecda36179fa4ac",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AMDModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+                      "size":  118696,
+                      "sha256":  "099db2c272764c1e5adde656163853892ba01c52f59daeaf46fe86788d395d8e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AnimationModule.dll",
+                      "size":  216496,
+                      "sha256":  "d4423b0ff31db8a590b045a94b66d206d15c7152cf44a29d67a16c191f472816",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AnimationModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ARModule.dll",
+                      "size":  22952,
+                      "sha256":  "f415c512e3713c3f9ca9f531f67cd4f2fe9a1e06614306bd0e8abf11a0e940a2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ARModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AssetBundleModule.dll",
+                      "size":  39856,
+                      "sha256":  "39cc31d2e7fa821d8dde85962864f9622e467cbfb2fb19be6e7944645121acb9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AssetBundleModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AudioModule.dll",
+                      "size":  103848,
+                      "sha256":  "906195ca1102d2c7282e2a6e1cc3bf250a846df6ba8b208e15f3c5e7e09991de",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.AudioModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClothModule.dll",
+                      "size":  34216,
+                      "sha256":  "731966cdf71d1c8a9480cdcd68bec7a2c4a4f6e7b420c65cd52dbf7d1a78d477",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClothModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClusterInputModule.dll",
+                      "size":  25512,
+                      "sha256":  "4c18c63e9241a592792dc38ba4ce0b3e928e7cda9e3e7c575b337e6df65cff40",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClusterInputModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+                      "size":  23976,
+                      "sha256":  "d51003c6813d6e2e50175fd3adc5223c7caff6d06222e2472acb04322a91d111",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ContentLoadModule.dll",
+                      "size":  30128,
+                      "sha256":  "5dfd10ad3f069858f26fb6dc268d0b0e51fd7f7e2f44f61f64b14aeff94b4a6b",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ContentLoadModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.CoreModule.dll",
+                      "size":  1835440,
+                      "sha256":  "acbe0b808d5c68442074c383bfaeb67557865af042dbcc73f2964b35e0d704aa",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.CoreModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.CrashReportingModule.dll",
+                      "size":  23984,
+                      "sha256":  "47a5931b460052b379060c9b291e3fae8a4e7241150306d6c2fe4d6449a8240e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.CrashReportingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.DirectorModule.dll",
+                      "size":  39336,
+                      "sha256":  "f156e1d11571401f3990e5e0e9934b28224cf55d0c5459a296893b80e405d4e6",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.DirectorModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.dll",
+                      "size":  171432,
+                      "sha256":  "143ce04e3415521f81165fcf31a5c22dd1c584943e3edeb74e93911fd919b6a6",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.DSPGraphModule.dll",
+                      "size":  31144,
+                      "sha256":  "32b6ab490b872b81a96bc838598070b6deb63b960513ee8b2fdd4037b30a5474",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.DSPGraphModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GameCenterModule.dll",
+                      "size":  43432,
+                      "sha256":  "d83290d4385eb5d7447b65e39dfd1ae348dfab24f8877e37c34a797c89f48dea",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GameCenterModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GIModule.dll",
+                      "size":  21928,
+                      "sha256":  "c9ffafcfa5f15db981235997593dd2966c7b930861c54158db109dcd8a762053",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+                      "size":  14248,
+                      "sha256":  "ba25aeff7e1f62d795e5190a8790c51a94f0e3175cf0564265f6606ccf1d9233",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GridModule.dll",
+                      "size":  27560,
+                      "sha256":  "175607f6908f4eea5d3e47c1596c013a5e33333a331d5f306c0380778b0dca60",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.GridModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+                      "size":  91568,
+                      "sha256":  "960da5e9909e967f5eaa8d83174cd71e8545269986dd22e0c511752f65ede5ca",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.HierarchyCoreModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.HotReloadModule.dll",
+                      "size":  21928,
+                      "sha256":  "684a451632f0c3ad67182b8898e3b3d39fe3d447a79dc3a8e5f97e4e04523523",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.HotReloadModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ImageConversionModule.dll",
+                      "size":  28584,
+                      "sha256":  "eefc0c871be2f19f784a6c88427fc16c251a2c32e091e9f987a3df74d422a0ee",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ImageConversionModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.IMGUIModule.dll",
+                      "size":  208304,
+                      "sha256":  "447885e0a7b3b73f0c05edcd2d1d48535505beed4731be7ccad4b76c3a80b488",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.IMGUIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputForUIModule.dll",
+                      "size":  57256,
+                      "sha256":  "107c12fde1413bec5aaaa2091b9ef7f21abb88095e917d05a6bde06197f44715",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputForUIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputLegacyModule.dll",
+                      "size":  42920,
+                      "sha256":  "09cba9394dec6d20de2a1aa03550ed8d5e4c997fe5c3cdc601ce67f86081ae92",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputLegacyModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputModule.dll",
+                      "size":  25512,
+                      "sha256":  "d0a57015d919ad4dd13ab43f218c5c6e803389fbc70e5cf6d3e9f3ae16abbedc",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.InputModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+                      "size":  24488,
+                      "sha256":  "a2a95ffc300da850f0c351665d9c4ecc98e10bc2d63e80fd660f568d263f0b69",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.LocalizationModule.dll",
+                      "size":  24496,
+                      "sha256":  "e34e151eb2acd3f8988b6b30b0657d7d1a28fa663ed3412b6663c573cb1f1566",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.LocalizationModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.MarshallingModule.dll",
+                      "size":  65448,
+                      "sha256":  "ef5dd0003862dd4b0891a6d82d7c406a8d285ab90268f4663e71c7379ecf2fd9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.MarshallingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.MultiplayerModule.dll",
+                      "size":  15792,
+                      "sha256":  "3d095b25539e74f23f773fe21e66c1cad7d79751f1f064e5c703ed562ef41327",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.MultiplayerModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.NVIDIAModule.dll",
+                      "size":  35760,
+                      "sha256":  "7a5f361e5b79d891cd01880dd1f88c3a373614b9159e14f0f014b06fd3417166",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.NVIDIAModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+                      "size":  168880,
+                      "sha256":  "96ae526381a40e23aa7dffbcaabed0922cc555efcdd7bfd3837f747058d938df",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+                      "size":  22440,
+                      "sha256":  "781655f0d90f25dd2f665da90839721dfefbdd605011193b5c3082327d9c0403",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Physics2DModule.dll",
+                      "size":  202664,
+                      "sha256":  "d493d234dbe5572e39c865e335f587e0914cbc55c94a8eefdba92cc8264dfa85",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Physics2DModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PhysicsModule.dll",
+                      "size":  183208,
+                      "sha256":  "14bf244acadb9fcbf873dc22f0bb417e220fa1cba2ab2571e88f0fdb2e26db22",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PhysicsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PropertiesModule.dll",
+                      "size":  149416,
+                      "sha256":  "fea7c8bf20daab9164b8a42743746ad9ddd68bca5220a6c999a32428117b7962",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.PropertiesModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleCore.dll",
+                      "size":  6144,
+                      "sha256":  "f2e8c6ca0e7efb54bf8c19e214faa0dedec63c4c884cc0b103b00055f5f573da",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleCore.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll",
+                      "size":  6144,
+                      "sha256":  "8dc07d6ece335f4ceca02397068ac710e6b92fde772188dfdd32df842c18a146",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleStub.dll",
+                      "size":  6144,
+                      "sha256":  "c2640174d973bfe5207dd3f8cf12c93ab6b9d126b1e7c850630cc493ee82cba8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.AppleStub.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.Codeless.dll",
+                      "size":  23040,
+                      "sha256":  "23e9bd4eb58f179da5b1e5918637b13fef6ba7f4f0c62d5920ab086636713ab3",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.Codeless.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.dll",
+                      "size":  63488,
+                      "sha256":  "0b77e8d4cfcff46890b7824e1b466e9c9a1d53fd4e42bf4299d66a8dc1e55838",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll",
+                      "size":  8704,
+                      "sha256":  "9153390af3c731295a0a3660845377c479f9bd22fde05ef5b609354fd013305f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll",
+                      "size":  7168,
+                      "sha256":  "e2b519b1cc5a7a0471566ee67d52624d379fbbb994864d4144f46ddc863213b3",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.Stores.dll",
+                      "size":  203264,
+                      "sha256":  "5a94df9d4eaca51c978db314c8706f087426df571d499606f044ac5008c31f95",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.Stores.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll",
+                      "size":  7168,
+                      "sha256":  "936e7c5832d4fedca18abed1f2fdcfdfc2c41eafd4c7ea21277c5ac55e96c7a1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll",
+                      "size":  5120,
+                      "sha256":  "934a084a194ed1dfe3a08a3d72628728170eb1f4d8744f5a63143de72f0b87db",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+                      "size":  21928,
+                      "sha256":  "8a81d3787c0609539a5f179bf740dea3ce93b040240b489a206b024480daaabe",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+                      "size":  23464,
+                      "sha256":  "c7c8cdad0d33bcf89660d0b16edc3cd0c9395943b9e2ed7a725b4aac2f73a886",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+                      "size":  21936,
+                      "sha256":  "ba9a14214cfe8b2d9016aa5cddac1307a01b9c25344c7c9cf74e81969ac46bdd",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+                      "size":  33192,
+                      "sha256":  "12bd2a7625ee317c84530aa697974fe2e51444871744d11b0b4f62057928775c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpatialTracking.dll",
+                      "size":  11776,
+                      "sha256":  "0430842d634e8c81836b655d7b0d99e4dab0981cdd2bf9168558ba13dbcc9297",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpatialTracking.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+                      "size":  26024,
+                      "sha256":  "9c65fccf7680183544e3ea8a42b0a442884c6f2bb7827ecd565e045d4a138bcd",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+                      "size":  29104,
+                      "sha256":  "ff21b3f7f6c5a902af992dfb7c518adfd8d1a49021832cb26e2b89b34e108bf9",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.StreamingModule.dll",
+                      "size":  23472,
+                      "sha256":  "289921c007099a74738c815f1828844ea021c3be2a1246b3e4d2bb7ad56283bb",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.StreamingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SubstanceModule.dll",
+                      "size":  26544,
+                      "sha256":  "b10687aa867b614f789206ada7490e811fba6dcce13b6667bfe31a50c8804f9c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SubstanceModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SubsystemsModule.dll",
+                      "size":  39344,
+                      "sha256":  "7b0eb52fda88d456863ae37a6e0febf2c6adcd84396880890034ae5fd49a2852",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.SubsystemsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TerrainModule.dll",
+                      "size":  130472,
+                      "sha256":  "4cc1f5f776cc0dd345633c8b7010792fc3570aecc404572bfc041bbd88654890",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TerrainModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+                      "size":  22952,
+                      "sha256":  "d2f45d062831c8d1aeb18f122a4125d72a3211f38c993ec341a633b7c831225c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+                      "size":  85416,
+                      "sha256":  "fd0bc719878c911655d04ebedf10ca4c8044e14e87593d8e6f7d4c014e451608",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+                      "size":  308656,
+                      "sha256":  "4842846bcc680a659e4d22b628811ab60f0115f31d9ca9b974aeaeb604cc93a0",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextRenderingModule.dll",
+                      "size":  46512,
+                      "sha256":  "e1c1cd7d065f0a4a1c7f000ad54fa86b9b05090bf6303033b6c4647d5bfd6a50",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TextRenderingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TilemapModule.dll",
+                      "size":  55208,
+                      "sha256":  "5fbf6333520c1a4149a16e30da2319a93093b82cf94c4079e69574da988c88e7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TilemapModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TLSModule.dll",
+                      "size":  28592,
+                      "sha256":  "4356e71addb5a9fc54517be4c743f81817a076620cc41009cff85fa0c29d6440",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.TLSModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UI.dll",
+                      "size":  267264,
+                      "sha256":  "9b2af1f8340a3ecfa9a3ab537da50d83877dd9a36ab50fb2a9802e17be71471c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UI.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UIElementsModule.dll",
+                      "size":  2074032,
+                      "sha256":  "b6445397785bc1f5d73272f4f0197a1bb6f21773954df2cefba571c6c250187e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UIElementsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UIModule.dll",
+                      "size":  47016,
+                      "sha256":  "76644fe80127d17ff2f5df5c3dea70b5f570209b13d7e09763561be2a350173c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UIModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UmbraModule.dll",
+                      "size":  21928,
+                      "sha256":  "db10dca975a69dad8aa7e9318fe18cbc37661588ed5c11d7d4229553fd52f5fa",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UmbraModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+                      "size":  32688,
+                      "sha256":  "05bd3e0d8e6e0fb7554c0a89c261c85b7fd9308d9a9e8ceb54cd3aabc2c32f73",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+                      "size":  58280,
+                      "sha256":  "95ab2a12a3238624a0232c89054f943c15eb5f6d16e2569e043dde2f1f41e051",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityConnectModule.dll",
+                      "size":  25008,
+                      "sha256":  "11256b80a85413df468d4fd395d7e577e94de1cc20bf5841e47bbe45a1a240f0",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityConnectModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityCurlModule.dll",
+                      "size":  23472,
+                      "sha256":  "bdad882017ab6ce406903af961641bfe0e80a409303a26579a44033c581e4f29",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityCurlModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+                      "size":  21928,
+                      "sha256":  "40dc0fc5926d50ccd4749b69e9f94b227554cc10eab24c56cf8ff079a3fc4821",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+                      "size":  26024,
+                      "sha256":  "af4b4577dbde6757d0ae06c2271c391f089f4be50601e55ab55f04d22647d9b5",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+                      "size":  25512,
+                      "sha256":  "99070676eed799af2e40236b575ce5f73ad8587a99971e461045d3edfb372f1f",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+                      "size":  66984,
+                      "sha256":  "e7f584a8fe3db80756988facd087b19e027774090fdce2a17a2196fb61315c2c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+                      "size":  25000,
+                      "sha256":  "136e416771222669fca07e46269f743b22f1bb65227bde9c30424e75e6f9fb08",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+                      "size":  33704,
+                      "sha256":  "5714858b37a0f82aaf77eea05e67cb2ed2675b56715fa265d8c43c6a4a7aa56e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VehiclesModule.dll",
+                      "size":  29104,
+                      "sha256":  "58a78731c6ee4778792b0fa27345f41a3885ad38c34f6cd1a5f6d7bd207bda34",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VehiclesModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VFXModule.dll",
+                      "size":  75696,
+                      "sha256":  "8631744af5278cf8342f69263a4119cb37cd5dba334f7381f57f50c7e83977f7",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VFXModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VideoModule.dll",
+                      "size":  56240,
+                      "sha256":  "00e6fc961532dcfe1a64540c0586c6eb4295b220282721b78ed7a19593dc1bb8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VideoModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+                      "size":  40360,
+                      "sha256":  "e73d1df9e0a3ffba0d268733e97cca3a18366287894d70d6fd1dcbd1e4ed570d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VRModule.dll",
+                      "size":  29104,
+                      "sha256":  "16c066153aeadfd2bec72bf93bc5ba2777c0cd07fc135de86c008a3c5c203310",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.VRModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.WindModule.dll",
+                      "size":  23976,
+                      "sha256":  "b67ec92e2a965e71b253f05096b9343ac53aa8a74a4dfa3c1c07e44d1d7d4e9c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.WindModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
+                      "size":  23552,
+                      "sha256":  "37c4fae4a3c7ff49fdcf87a9e7a1408fb021222a9693c9a165161fbb641365e6",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.XRModule.dll",
+                      "size":  85424,
+                      "sha256":  "36cad58cf0ae8f7912fc49a2c5c5303f09c35c18ab65a3282d66e54ff8cd6b40",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Managed/UnityEngine.XRModule.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Plugins/ARM64/VivoxNative.dll",
+                      "size":  734120,
+                      "sha256":  "7f542b1d2ef0ba911ca1fada35d08dd59b9730f797527ceb9a8108292ea81a13",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Plugins/ARM64/VivoxNative.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Plugins/ARM64/vivoxsdk.dll",
+                      "size":  12185680,
+                      "sha256":  "35fcb33f12d6cfaa674331df5808d7121ec20a67318ca77c38ddb07e0bb26aad",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Plugins/ARM64/vivoxsdk.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/lib_burst_generated.dll",
+                      "size":  589312,
+                      "sha256":  "8f49fb38a8df5ba05b23dab256a0f716baed100db882767537bf9e33c363e695",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/lib_burst_generated.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/VivoxNative.dll",
+                      "size":  736688,
+                      "sha256":  "c802a8e12ef5ff8356c6880e64eee8f33d5cb9106eefd6f10aef6baa93011c0c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/VivoxNative.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/vivoxsdk.dll",
+                      "size":  12663376,
+                      "sha256":  "2877728ca9712e2bdc22487e4dc7edefec22a183e97c5481c09b1f3a16c58040",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Plugins/x86_64/vivoxsdk.dll"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Resources/unity default resources",
+                      "size":  5862452,
+                      "sha256":  "e97068af1d02a2d037b75900ba7d809469e9bd0258e5e842886e0ce90380dae4",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Resources/unity default resources"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/Resources/unity_builtin_extra",
+                      "size":  362644,
+                      "sha256":  "6155df39c2b7792f6cd68df504f4071f16114d506c21203af6826af1d089eae8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/Resources/unity_builtin_extra"
+                  },
+                  {
+                      "path":  "BlazedOdysseyMMOAlpha_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+                      "size":  2208,
+                      "sha256":  "8ed7da2a2416387ec328d438c59b06f4c9d7684fb3f9b4e9859fcd9a93ed66c5",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/BlazedOdysseyMMOAlpha_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
+                  },
+                  {
+                      "path":  "D3D12/D3D12Core.dll",
+                      "size":  5908408,
+                      "sha256":  "31f364f2b3aa1753e7ba9ff912d0721c8f424be5fa14503efddafbb30c635d3b",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/D3D12/D3D12Core.dll"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+                      "size":  7830448,
+                      "sha256":  "b607a3e7fa10a32029eb13d8be7695aa0c417be81e186d198912f11700f533d1",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+                      "size":  611240,
+                      "sha256":  "325206e322bdb21a6762dbe4e4a302c5389843c65d4ac4bc0f87cf5b0592fc58",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/browscap.ini",
+                      "size":  311984,
+                      "sha256":  "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/browscap.ini"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/config",
+                      "size":  3815,
+                      "sha256":  "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+                      "size":  60575,
+                      "sha256":  "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/2.0/machine.config",
+                      "size":  29066,
+                      "sha256":  "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/2.0/machine.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/2.0/settings.map",
+                      "size":  2622,
+                      "sha256":  "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/2.0/settings.map"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/2.0/web.config",
+                      "size":  11635,
+                      "sha256":  "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/2.0/web.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+                      "size":  1605,
+                      "sha256":  "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+                      "size":  60575,
+                      "sha256":  "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.0/machine.config",
+                      "size":  33598,
+                      "sha256":  "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.0/machine.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.0/settings.map",
+                      "size":  2622,
+                      "sha256":  "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.0/settings.map"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.0/web.config",
+                      "size":  18802,
+                      "sha256":  "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.0/web.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+                      "size":  1605,
+                      "sha256":  "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+                      "size":  60575,
+                      "sha256":  "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.5/machine.config",
+                      "size":  34056,
+                      "sha256":  "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.5/machine.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.5/settings.map",
+                      "size":  2622,
+                      "sha256":  "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.5/settings.map"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.5/web.config",
+                      "size":  18811,
+                      "sha256":  "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.5/web.config"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+                      "size":  1605,
+                      "sha256":  "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+                  },
+                  {
+                      "path":  "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+                      "size":  25817,
+                      "sha256":  "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
+                      "url":  "https://raw.githubusercontent.com/BlazedONLINE/BlazedOdysseyAUTOPATCHER/gh-pages/patches/v0.1.2/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+                  }
+              ],
+    "version":  "0.1.2"
+}
