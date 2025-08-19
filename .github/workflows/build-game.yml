@@ -1,0 +1,298 @@
+name: Build Unity Game
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build'
+        required: true
+        default: '1.0.0'
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+jobs:
+  build-unity:
+    name: Build Unity Game
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+      
+      - name: Get version
+        id: version
+        run: |
+          if ("${{ github.event_name }}" -eq "push") {
+            $version = "${{ github.ref_name }}".TrimStart("v")
+          } else {
+            $version = "${{ github.event.inputs.version }}"
+          }
+          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+          echo "Building version: $version"
+        shell: pwsh
+
+      - name: Cache Unity Library
+        uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-
+
+      - name: Setup Unity
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: .
+          targetPlatform: StandaloneWindows64
+          buildName: BlazedOdyssey
+          buildsPath: builds
+          customParameters: -burst-disable-compilation
+
+      - name: Prepare build output
+        run: |
+          # Create Game directory structure
+          New-Item -ItemType Directory -Force -Path "Game"
+          
+          # Copy build files to Game directory
+          $buildPath = "builds/StandaloneWindows64"
+          if (Test-Path $buildPath) {
+            Copy-Item -Path "$buildPath/*" -Destination "Game/" -Recurse -Force
+          } else {
+            Write-Error "Build path not found: $buildPath"
+            exit 1
+          }
+          
+          # Verify main executable exists
+          if (-not (Test-Path "Game/BlazedOdyssey.exe")) {
+            Write-Error "Game executable not found!"
+            exit 1
+          }
+          
+          # List contents for debugging
+          Write-Host "Game directory contents:"
+          Get-ChildItem -Path "Game" -Recurse | Select-Object FullName, Length
+        shell: pwsh
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: game-build-${{ steps.version.outputs.VERSION }}
+          path: Game/
+          retention-days: 30
+
+  generate-manifest:
+    name: Generate Update Manifest
+    needs: build-unity
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get version
+        id: version
+        run: |
+          if ("${{ github.event_name }}" -eq "push") {
+            $version = "${{ github.ref_name }}".TrimStart("v")
+          } else {
+            $version = "${{ github.event.inputs.version }}"
+          }
+          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+        shell: pwsh
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: game-build-${{ steps.version.outputs.VERSION }}
+          path: Game/
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0'
+
+      - name: Build manifest generator
+        run: |
+          dotnet publish tools/ManifestGenerator -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o tools/bin
+        shell: pwsh
+
+      - name: Generate signing keys (if not exist)
+        env:
+          SIGNING_PRIVATE_KEY: ${{ secrets.SIGNING_PRIVATE_KEY }}
+        run: |
+          if (-not $env:SIGNING_PRIVATE_KEY) {
+            Write-Host "Generating new signing keys..."
+            ./tools/bin/ManifestGenerator keygen --output signing_key
+            
+            $privateKey = Get-Content -Raw "signing_key_private.key" | ConvertTo-Base64
+            $publicKey = Get-Content -Raw "signing_key_public.key" | ConvertTo-Base64
+            
+            Write-Host "::warning::New signing keys generated. Add these to repository secrets:"
+            Write-Host "SIGNING_PRIVATE_KEY (base64): $privateKey"
+            Write-Host "SIGNING_PUBLIC_KEY (base64): $publicKey"
+            
+            # For this build, use the generated key
+            echo $privateKey > signing_key_private.key.b64
+          } else {
+            Write-Host "Using existing signing key from secrets"
+            echo "$env:SIGNING_PRIVATE_KEY" | ConvertFrom-Base64 > signing_key_private.key
+          }
+        shell: pwsh
+
+      - name: Generate manifest
+        run: |
+          $baseUrl = "https://github.com/${{ github.repository }}/releases/download/v${{ steps.version.outputs.VERSION }}"
+          
+          ./tools/bin/ManifestGenerator generate `
+            --input "Game" `
+            --output "manifest.json" `
+            --version "${{ steps.version.outputs.VERSION }}" `
+            --base-url "$baseUrl" `
+            --channel "stable" `
+            --executable "BlazedOdyssey.exe" `
+            --sign `
+            --private-key "signing_key_private.key"
+        shell: pwsh
+
+      - name: Upload manifest artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: manifest-${{ steps.version.outputs.VERSION }}
+          path: |
+            manifest.json
+            manifest.sig
+          retention-days: 30
+
+  publish-release:
+    name: Publish GitHub Release
+    needs: [build-unity, generate-manifest]
+    runs-on: windows-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get version
+        id: version
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+        shell: pwsh
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: game-build-${{ steps.version.outputs.VERSION }}
+          path: Game/
+
+      - name: Download manifest artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: manifest-${{ steps.version.outputs.VERSION }}
+          path: .
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0'
+
+      - name: Build publisher
+        run: |
+          dotnet publish tools/Publisher -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o tools/bin
+        shell: pwsh
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          # Get commits since last tag
+          $lastTag = git describe --tags --abbrev=0 HEAD^ 2>$null
+          if ($lastTag) {
+            $changelog = git log --pretty=format:"- %s" "$lastTag..HEAD"
+          } else {
+            $changelog = "Initial release"
+          }
+          
+          $changelog | Out-File -FilePath "CHANGELOG.md" -Encoding UTF8
+          echo "Generated changelog:"
+          Get-Content "CHANGELOG.md"
+        shell: pwsh
+
+      - name: Publish to GitHub Releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./tools/bin/Publisher github `
+            --game-dir "Game" `
+            --manifest "manifest.json" `
+            --version "${{ steps.version.outputs.VERSION }}" `
+            --changelog "CHANGELOG.md" `
+            --token "$env:GITHUB_TOKEN" `
+            --repo "${{ github.repository }}"
+        shell: pwsh
+
+  build-launcher:
+    name: Build Launcher
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0'
+
+      - name: Build launcher
+        run: |
+          dotnet publish launcher/BlazedOdysseyLauncher.csproj `
+            -c Release `
+            -r win-x64 `
+            --self-contained `
+            -p:PublishSingleFile=true `
+            -p:PublishTrimmed=true `
+            -o launcher/bin/Release
+        shell: pwsh
+
+      - name: Upload launcher artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: launcher
+          path: launcher/bin/Release/BlazedOdysseyLauncher.exe
+          retention-days: 30
+
+  publish-launcher:
+    name: Publish Launcher
+    needs: build-launcher
+    runs-on: windows-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download launcher
+        uses: actions/download-artifact@v3
+        with:
+          name: launcher
+          path: .
+
+      - name: Upload launcher to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: BlazedOdysseyLauncher.exe
+          tag_name: ${{ github.ref_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

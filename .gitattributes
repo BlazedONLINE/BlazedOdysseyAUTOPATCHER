@@ -1,0 +1,5 @@
+patches/**/BlazedOdyssey*_Data/** filter=lfs diff=lfs merge=lfs -text
+patches/**/*.assets filter=lfs diff=lfs merge=lfs -text
+patches/**/*.resS filter=lfs diff=lfs merge=lfs -text
+patches/**/*.bundle filter=lfs diff=lfs merge=lfs -text
+patches/**/*.dll filter=lfs diff=lfs merge=lfs -text
