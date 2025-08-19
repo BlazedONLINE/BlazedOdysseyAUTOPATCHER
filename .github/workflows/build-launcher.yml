@@ -1,0 +1,102 @@
+name: Build Launcher
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'launcher/**'
+      - '.github/workflows/build-launcher.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'launcher/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Launcher
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        include:
+          - os: windows-latest
+            runtime: win-x64
+            executable: BlazedOdysseyLauncher.exe
+          - os: ubuntu-latest
+            runtime: linux-x64
+            executable: BlazedOdysseyLauncher
+          - os: macos-latest
+            runtime: osx-x64
+            executable: BlazedOdysseyLauncher
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0'
+
+      - name: Restore dependencies
+        run: dotnet restore launcher/BlazedOdysseyLauncher.csproj
+
+      - name: Build
+        run: |
+          dotnet build launcher/BlazedOdysseyLauncher.csproj \
+            --configuration Release \
+            --no-restore
+
+      - name: Test
+        run: |
+          # Add tests when available
+          echo "No tests configured yet"
+
+      - name: Publish
+        run: |
+          dotnet publish launcher/BlazedOdysseyLauncher.csproj \
+            --configuration Release \
+            --runtime ${{ matrix.runtime }} \
+            --self-contained \
+            -p:PublishSingleFile=true \
+            -p:PublishTrimmed=true \
+            --output launcher/bin/Release/${{ matrix.runtime }}
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: launcher-${{ matrix.runtime }}
+          path: launcher/bin/Release/${{ matrix.runtime }}/${{ matrix.executable }}
+          retention-days: 7
+
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0'
+
+      - name: Run manifest generator tests
+        run: |
+          cd tools/ManifestGenerator
+          dotnet test --configuration Release --logger trx --results-directory TestResults
+
+      - name: Run publisher tests
+        run: |
+          cd tools/Publisher
+          dotnet test --configuration Release --logger trx --results-directory TestResults
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: '**/TestResults/*.trx'
+          retention-days: 7
