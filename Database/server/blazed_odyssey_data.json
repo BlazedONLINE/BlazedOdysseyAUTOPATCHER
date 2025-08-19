@@ -1,0 +1,19 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "Wacko",
+      "email": "wacko@wacko.com",
+      "password_hash": "3q6wKsjcHTYI7WKt41S3gH0UZ23bY1TdlEpv4E280GU=",
+      "salt": "13nNacSUwqDA+WZNUZEoBBkayLaI6NFXN9iSCU3fFs0=",
+      "character_slots": 3,
+      "is_active": true,
+      "is_admin": false,
+      "last_login": null,
+      "last_ip": null,
+      "created_at": "2025-08-18T23:56:01.074Z",
+      "updated_at": "2025-08-18T23:56:01.074Z"
+    }
+  ],
+  "characters": []
+}

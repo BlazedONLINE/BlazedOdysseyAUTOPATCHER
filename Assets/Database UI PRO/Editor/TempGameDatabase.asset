@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03da5e76c55c504990aa2d5463f321a, type: 3}
+  m_Name: TempGameDatabase
+  m_EditorClassIdentifier: 
+  attributes: []
+  currencies: []
+  damageElements: []
+  items:
+  - {fileID: 11400000, guid: cf848db4c315cd140bc41502fa13b879, type: 2}
+  - {fileID: 11400000, guid: cf2d0e5585bf0844ca141d5372f4e83a, type: 2}
+  itemCraftFormulas: []
+  armorTypes: []
+  weaponTypes: []
+  ammoTypes: []
+  statusEffects: []
+  skills: []
+  guildSkills: []
+  guildIcons: []
+  playerCharacters:
+  - {fileID: 11400000, guid: 757e3ef43758ec749a63a4df3adb4ddf, type: 2}
+  monsterCharacters: []
+  harvestables: []
+  mapInfos: []
+  quests: []
+  factions: []

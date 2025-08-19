@@ -1,0 +1,4 @@
+Record the source and license of each track you import here. Examples:
+
+Town_Day.ogg — Juhani Junkala — Retro Game Music Pack — CC0 — https://opengameart.org/content/retro-game-music-pack
+Field.ogg — PeriTune (Sakuya) — CC-BY 4.0 — https://peritune.com/

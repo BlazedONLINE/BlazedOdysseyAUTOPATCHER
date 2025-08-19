@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49dcecd2ed60a2e4385a6fad8a912c96, type: 3}
+  m_Name: UITheme
+  m_EditorClassIdentifier: 
+  Primary:
+    serializedVersion: 2
+    rgba: 4286425805
+  Accent:
+    serializedVersion: 2
+    rgba: 4290171007
+  BG:
+    serializedVersion: 2
+    rgba: 4279373070
+  Panel:
+    serializedVersion: 2
+    rgba: 4280296746
+  Text:
+    serializedVersion: 2
+    rgba: 4292863722
+  PixelFont: {fileID: 0}
+  Panel9Slice: {fileID: 0}
+  HoverSfx: {fileID: 0}
+  ClickSfx: {fileID: 0}

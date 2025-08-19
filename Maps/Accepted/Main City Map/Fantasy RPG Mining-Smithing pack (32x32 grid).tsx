@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.10" tiledversion="1.11.2" name="Fantasy RPG Mining-Smithing pack (32x32 grid)" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+ <image source="../../../Assets/Maps/Accepted/Main City Map/RPG Mining &amp; Smithing pack (by Franuka)/2x/Fantasy RPG Mining-Smithing pack (32x32 grid).png" width="2048" height="2048"/>
+</tileset>

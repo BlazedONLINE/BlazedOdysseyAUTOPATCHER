@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0cc8060ca33e77b42bc2d497e9330424
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297634
+  packageName: Alternative UI for MMOKIT
+  packageVersion: 1.0
+  assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/HPRecovery.asset
+  uploadId: 701401

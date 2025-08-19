@@ -1,0 +1,52 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "First small town test map.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 475.5,
+                "y": 357
+            }
+        },
+        "K:/BlazedOdyssey Project/BlazedOdysseyMMO/BlazedOdysseyMMOAlpha/Maps/Accepted/Main City Map/First small town test map.tmx": {
+            "scale": 0.9143749999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 479.56254272043753,
+                "y": 187.01298701298703
+            }
+        },
+        "K:/BlazedOdyssey Project/BlazedOdysseyMMO/BlazedOdysseyMMOAlpha/Maps/Accepted/Main City Map/RPG tileset (full) - 200%.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "RPG tileset (full) - 200%.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.externalTilesetPath": "K:/BlazedOdyssey Project/BlazedOdysseyMMO/BlazedOdysseyMMOAlpha/Assets/Maps/Accepted/Main City Map",
+    "last.imagePath": "K:/UserFolders/Downloads/Fantasy RPG asset pack/2x",
+    "map.fixedSize": true,
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+    ],
+    "project": "First City Map.tiled-project",
+    "recentFiles": [
+        "First small town test map.tmx",
+        "K:/BlazedOdyssey Project/BlazedOdysseyMMO/BlazedOdysseyMMOAlpha/Maps/Accepted/Main City Map/First small town test map.tmx",
+        "RPG tileset (full) - 200%.tsx"
+    ],
+    "tileset.lastUsedFilter": "All Files (*)",
+    "tileset.lastUsedFormat": "tsx"
+}

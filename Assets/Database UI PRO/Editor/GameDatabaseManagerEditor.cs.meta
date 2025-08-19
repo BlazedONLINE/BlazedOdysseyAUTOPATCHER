@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 429807b8c78cd8748a3e99ddeea643dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301833
+  packageName: Manager Database Pro - MMORPG KIT ADDON
+  packageVersion: 1.0
+  assetPath: Assets/Database UI PRO/Editor/GameDatabaseManagerEditor.cs
+  uploadId: 749835
